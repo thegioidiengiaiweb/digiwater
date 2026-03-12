@@ -1,8 +1,7 @@
 {
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/about", "dest": "/about.html" },
-    { "src": "/contact", "dest": "/contact.html" },
-    { "src": "/services", "dest": "/services.html" }
+    { "handle": "filesystem" }
   ]
 }
